@@ -1,0 +1,72 @@
+{
+  "orderId": "OR123457",
+  "customer": {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone": "+9876543210"
+  },
+  "supplier": {
+    "name": "XYZ Supplier",
+    "supplierId": "SUP002"
+  },
+  "shippingAddress": {
+    "street": "456 Oak St",
+    "city": "Another City",
+    "state": "NY",
+    "zipCode": "54321"
+  },
+  "orderDate": "2023-09-25T11:30:00",
+  "shippingDate": "Thu, Nov 24",
+  "category": "EATABLES",
+  "department": "300-444-678",
+  "totalPrice": 119.95,
+  "approvalStatus": false,
+  "items": [
+    {
+      "productId": "VEG001",
+      "productName": "Carrots delecious aorganice meat areived  It has survived not only five centuries, but also the leap",
+      "brand": "Farm Fresh",
+      "price": 1.99,
+      "quantity": 5,
+      "total": 9.95,
+      "status": "REQUESTED"
+    },
+    {
+      "productId": "VEG002",
+      "productName": "Tomatoes",
+      "brand": "Organic Farms",
+      "price": 2.49,
+      "quantity": 3,
+      "total": 7.47,
+      "status": "REQUESTED"
+    },
+    {
+      "productId": "VEG003",
+      "productName": "Spinach",
+      "brand": "Healthy Greens",
+      "price": 1.79,
+      "quantity": 2,
+      "total": 3.58,
+      "status": "REQUESTED"
+    },
+    {
+      "productId": "FRUIT001",
+      "productName": "Apples",
+      "brand": "Orchard Delights",
+      "price": 0.99,
+      "quantity": 10,
+      "total": 9.9,
+      "status": "REQUESTED"
+    },
+    {
+      "productId": "FRUIT002",
+      "productName": "Bananas",
+      "brand": "Tropical Farms",
+      "price": 0.49,
+      "quantity": 8,
+      "total": 3.92,
+      "status": "REQUESTED"
+    }
+  ],
+  "status": "Approved"
+}
